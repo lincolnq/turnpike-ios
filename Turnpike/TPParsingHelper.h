@@ -11,6 +11,8 @@
 @interface TPParsingHelper : NSObject
 
 + (NSString *)sanitizeMappedPath:(NSString *)path;
-+ (void)validateDispatchedPath:(NSString *)dispatchedPath error:(NSError **)error;
+
+// Returns NO and sets *error if error, YES if ok
++ (BOOL)validateDispatchedPath:(NSString *)dispatchedPath error:(NSError **)error;
 
 @end

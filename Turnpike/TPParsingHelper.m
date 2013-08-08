@@ -33,19 +33,20 @@
     return [sanitizedPath copy];
 }
 
-+ (void)validateDispatchedPath:(NSString *)dispatchedPath error:(NSError **)error {
++ (BOOL)validateDispatchedPath:(NSString *)dispatchedPath error:(NSError **)error {
     if ([MULTIPLE_SLASHES firstMatchInString:dispatchedPath options:0 range:NSMakeRange(0, dispatchedPath.length)]) {
-        *error = [NSError errorWithDomain:ERROR_DOMAIN code:MULTIPLE_SLASHES_ERROR_CODE userInfo:@{NSLocalizedDescriptionKey: @"Path must not contain multiple consecutive slashes."}];
-        return;
+        if (error) *error = [NSError errorWithDomain:ERROR_DOMAIN code:MULTIPLE_SLASHES_ERROR_CODE userInfo:@{NSLocalizedDescriptionKey: @"Path must not contain multiple consecutive slashes."}];
+        return NO;
     }
     if ([LEADING_TRAILING_SLASHES firstMatchInString:dispatchedPath options:0 range:NSMakeRange(0, dispatchedPath.length)]) {
-        *error = [NSError errorWithDomain:ERROR_DOMAIN code:LEADING_TRAILING_SLASHES_ERROR_CODE userInfo:@{NSLocalizedDescriptionKey: @"Path must not contain leading or trailing slashes."}];
-        return;
+        if (error) *error = [NSError errorWithDomain:ERROR_DOMAIN code:LEADING_TRAILING_SLASHES_ERROR_CODE userInfo:@{NSLocalizedDescriptionKey: @"Path must not contain leading or trailing slashes."}];
+        return NO;
     }
     if ([MULTIPLE_COLONS firstMatchInString:dispatchedPath options:0 range:NSMakeRange(0, dispatchedPath.length)]) {
-        *error = [NSError errorWithDomain:ERROR_DOMAIN code:MULTIPLE_COLONS_ERROR_CODE userInfo:@{NSLocalizedDescriptionKey: @"Path must not contain multiple consecutive colons."}];
-        return;
+        if (error) *error = [NSError errorWithDomain:ERROR_DOMAIN code:MULTIPLE_COLONS_ERROR_CODE userInfo:@{NSLocalizedDescriptionKey: @"Path must not contain multiple consecutive colons."}];
+        return NO;
     }
+    return YES;
 }
 
 
