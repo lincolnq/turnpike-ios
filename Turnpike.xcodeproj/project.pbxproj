@@ -413,7 +413,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 i386 armv6 armv7s";
 			};
 			name = Debug;
 		};
@@ -436,10 +435,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7 i386 armv6 armv7s";
 			};
 			name = Release;
 		};
@@ -471,7 +468,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Turnpike/Turnpike-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
