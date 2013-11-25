@@ -10,7 +10,7 @@ Visit the [turnpike-ios-discuss](https://groups.google.com/forum/#!forum/turnpik
 
 ### Easy Installation
 
-Cocoapods is an Objective-C library manager. It makes installing Turnpike as easy as adding one line of code to a Podfile.
+[Cocoapods](http://beta.cocoapods.org/) is an Objective-C library manager. It makes installing Turnpike as easy as adding one line of code to a Podfile.
 
 To install Cocoapods: 
 $ [sudo] gem install cocoapods
