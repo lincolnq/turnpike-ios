@@ -21,15 +21,15 @@ $ pod setup
 Then, to install Turnpike with Cocoapods:
 <br>
 1. Create a Podfile
-2. <br>
+<br>
 2. Add the following to the Podfile:
-3. <br>
+<br>
 platform :ios
 <br>
 pod 'Turnpike', '0.0.1'
 <br>
 3. Navigate to the directory containing the Podfile in terminal and issue the following command:
-4. <br>
+<br>
 pod install
 
 That's it! For a more thorough tutorial on Cocoapods, see: http://www.raywenderlich.com/12139.
