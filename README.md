@@ -8,7 +8,7 @@ Visit the [turnpike-ios-discuss](https://groups.google.com/forum/#!forum/turnpik
 
 
 
-### Turnpike for iOS
+### Easy Installation
 
 Cocoapods is an Objective-C library manager. It makes installing Turnpike as easy as adding one line of code to a Podfile.
 
