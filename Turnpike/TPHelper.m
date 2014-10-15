@@ -71,10 +71,11 @@
 }
 
 + (NSString *)decodeURI:(NSString *)string {
-    return (__bridge_transfer NSString *) CFURLCreateStringByReplacingPercentEscapesUsingEncoding(NULL,
-                                                                                         (__bridge CFStringRef) string,
-                                                                                         CFSTR(""),
-                                                                                         kCFStringEncodingUTF8);
+    return (NSString *) CFBridgingRelease(
+                                          CFURLCreateStringByReplacingPercentEscapesUsingEncoding(NULL,
+                                                                                                  (CFStringRef)string,
+                                                                                                  CFSTR(""),
+                                                                                                  kCFStringEncodingUTF8));
 }
 
 + (void)invokeExternalURL:(NSString *)url {
