@@ -1,6 +1,0 @@
-framework module Turnpike {
-  umbrella header "Turnpike-umbrella.h"
-
-  export *
-  module * { export * }
-}

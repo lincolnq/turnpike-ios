@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEEE4FD01EF36EF100B432D8 /* Turnpike-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEE4FCE1EF36EF100B432D8 /* Turnpike-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF6403C1EF36241008F0BB4 /* Turnpike.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED18B1787304800AD1920 /* Turnpike.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		BEF6403D1EF36241008F0BB4 /* TPRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1B0178732C100AD1920 /* TPRouter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		BEF6403E1EF36241008F0BB4 /* TPRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1B31787338F00AD1920 /* TPRouteRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -33,7 +34,6 @@
 		BEF6405C1EF36526008F0BB4 /* TPURIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1E86941795C050006D3839 /* TPURIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF6405D1EF3653F008F0BB4 /* Turnpike.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFED1891787304800AD1920 /* Turnpike.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF640641EF36673008F0BB4 /* Turnpike-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF640611EF36673008F0BB4 /* Turnpike-dummy.m */; };
-		BEF640651EF36673008F0BB4 /* Turnpike-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF640621EF36673008F0BB4 /* Turnpike-umbrella.h */; };
 		BEF6406F1EF36971008F0BB4 /* Turnpike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF640341EF36219008F0BB4 /* Turnpike.framework */; };
 		BEF640751EF369BB008F0BB4 /* ParsingHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1E86981795D68F006D3839 /* ParsingHelperTests.m */; };
 		BEF640761EF369BD008F0BB4 /* URIHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC63021D1796B92F00609666 /* URIHelperTests.m */; };
@@ -98,11 +98,11 @@
 		ACFED1BA178734D600AD1920 /* TPFilterChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPFilterChain.m; sourceTree = "<group>"; };
 		ACFED1BC178740BE00AD1920 /* TPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPHelper.h; sourceTree = "<group>"; };
 		ACFED1BD178740BE00AD1920 /* TPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPHelper.m; sourceTree = "<group>"; };
+		BEEE4FCE1EF36EF100B432D8 /* Turnpike-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Turnpike-umbrella.h"; sourceTree = "<group>"; };
+		BEEE4FCF1EF36EF100B432D8 /* Turnpike.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Turnpike.modulemap; sourceTree = "<group>"; };
 		BEF640341EF36219008F0BB4 /* Turnpike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Turnpike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF640601EF36659008F0BB4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF640611EF36673008F0BB4 /* Turnpike-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Turnpike-dummy.m"; sourceTree = "<group>"; };
-		BEF640621EF36673008F0BB4 /* Turnpike-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Turnpike-umbrella.h"; sourceTree = "<group>"; };
-		BEF640631EF36673008F0BB4 /* Turnpike.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Turnpike.modulemap; sourceTree = "<group>"; };
 		BEF6406A1EF36971008F0BB4 /* TurnpikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnpikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF640791EF36B62008F0BB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -172,6 +172,8 @@
 		ACFED1871787304800AD1920 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEEE4FCE1EF36EF100B432D8 /* Turnpike-umbrella.h */,
+				BEEE4FCF1EF36EF100B432D8 /* Turnpike.modulemap */,
 				ACFED1881787304800AD1920 /* Turnpike-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -196,8 +198,6 @@
 			children = (
 				BEF640601EF36659008F0BB4 /* Info.plist */,
 				BEF640611EF36673008F0BB4 /* Turnpike-dummy.m */,
-				BEF640621EF36673008F0BB4 /* Turnpike-umbrella.h */,
-				BEF640631EF36673008F0BB4 /* Turnpike.modulemap */,
 				ACFED19E1787304800AD1920 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -246,11 +246,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF640651EF36673008F0BB4 /* Turnpike-umbrella.h in Headers */,
 				BEF640551EF36526008F0BB4 /* TPRouter.h in Headers */,
 				BEF640561EF36526008F0BB4 /* TPRouteRequest.h in Headers */,
 				BEF640571EF36526008F0BB4 /* TPFilterProtocol.h in Headers */,
 				BEF640581EF36526008F0BB4 /* TPAnonymousFilter.h in Headers */,
+				BEEE4FD01EF36EF100B432D8 /* Turnpike-umbrella.h in Headers */,
 				BEF640591EF36526008F0BB4 /* TPFilterChain.h in Headers */,
 				BEF6405D1EF3653F008F0BB4 /* Turnpike.h in Headers */,
 				BEF6405A1EF36526008F0BB4 /* TPHelper.h in Headers */,
@@ -304,6 +304,7 @@
 		ACFED1791787304800AD1920 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = URX;
 				TargetAttributes = {
@@ -325,6 +326,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = ACFED1781787304800AD1920;
 			productRefGroup = ACFED1821787304800AD1920 /* Products */;
