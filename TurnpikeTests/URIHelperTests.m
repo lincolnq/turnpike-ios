@@ -15,9 +15,9 @@
     NSURL *outputURL = [TPURIHelper sanitizeString:inputString];
     NSString *outputScheme = [TPURIHelper safeSchemeFromURL:outputURL];
     
-    STAssertEqualObjects(scheme,outputScheme, @"should be equal to the test scheme");
-    STAssertEqualObjects(path, outputURL.path, @"should be equal to the test path");
-    STAssertEqualObjects(query, outputURL.query, @"should be equal to the test query");
+    XCTAssertEqualObjects(scheme,outputScheme, @"should be equal to the test scheme");
+    XCTAssertEqualObjects(path, outputURL.path, @"should be equal to the test path");
+    XCTAssertEqualObjects(query, outputURL.query, @"should be equal to the test query");
 }
 
 -(void) testSanitizeStringWithEmptyRootPath {

@@ -15,19 +15,19 @@
     ^{
         NSError *error;
         [TPParsingHelper validateDispatchedPath:@"about/team" error:&error];
-        STAssertNil(error, @"should be a valid path");
+        XCTAssertNil(error, @"should be a valid path");
     }();
     
     ^{
         NSError *error;
         [TPParsingHelper validateDispatchedPath:@"/about/team" error:&error];
-        STAssertNotNil(error, @"should not be valid with a leading slash");
+        XCTAssertNotNil(error, @"should not be valid with a leading slash");
     }();
     
     ^{
         NSError *error;
         [TPParsingHelper validateDispatchedPath:@"about/team/" error:&error];
-        STAssertNotNil(error, @"should not be valid with a trailing slash");
+        XCTAssertNotNil(error, @"should not be valid with a trailing slash");
     }();
 }
 

@@ -7,27 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC1E86931795B178006D3839 /* TPParsingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1E86921795B178006D3839 /* TPParsingHelper.m */; };
-		AC1E86961795C050006D3839 /* TPURIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1E86951795C050006D3839 /* TPURIHelper.m */; };
-		AC1E86991795D68F006D3839 /* ParsingHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1E86981795D68F006D3839 /* ParsingHelperTests.m */; };
-		AC63021E1796B92F00609666 /* URIHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC63021D1796B92F00609666 /* URIHelperTests.m */; };
-		ACB0B8CE178F8E470048764A /* TPRouter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFED1AF178732C100AD1920 /* TPRouter.h */; };
-		ACB0B8CF178F8E490048764A /* TPRouteRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFED1B21787338F00AD1920 /* TPRouteRequest.h */; };
-		ACB0B8D0178F8E4B0048764A /* TPFilterProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFED1B51787340B00AD1920 /* TPFilterProtocol.h */; };
-		ACB0B8D1178F8E4E0048764A /* TPAnonymousFilter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFED1B61787349B00AD1920 /* TPAnonymousFilter.h */; };
-		ACB0B8D2178F8E510048764A /* TPFilterChain.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFED1B9178734D600AD1920 /* TPFilterChain.h */; };
-		ACB0B8D3178F8E540048764A /* TPHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFED1BC178740BE00AD1920 /* TPHelper.h */; };
-		ACFED1851787304800AD1920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFED1841787304800AD1920 /* Foundation.framework */; };
-		ACFED18A1787304800AD1920 /* Turnpike.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFED1891787304800AD1920 /* Turnpike.h */; };
-		ACFED18C1787304800AD1920 /* Turnpike.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED18B1787304800AD1920 /* Turnpike.m */; };
-		ACFED1971787304800AD1920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFED1841787304800AD1920 /* Foundation.framework */; };
-		ACFED1A01787304800AD1920 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACFED19E1787304800AD1920 /* InfoPlist.strings */; };
-		ACFED1A31787304800AD1920 /* TurnpikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1A21787304800AD1920 /* TurnpikeTests.m */; };
-		ACFED1B1178732C100AD1920 /* TPRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1B0178732C100AD1920 /* TPRouter.m */; };
-		ACFED1B41787338F00AD1920 /* TPRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1B31787338F00AD1920 /* TPRouteRequest.m */; };
-		ACFED1B81787349B00AD1920 /* TPAnonymousFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1B71787349B00AD1920 /* TPAnonymousFilter.m */; };
-		ACFED1BB178734D600AD1920 /* TPFilterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1BA178734D600AD1920 /* TPFilterChain.m */; };
-		ACFED1BE178740BE00AD1920 /* TPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1BD178740BE00AD1920 /* TPHelper.m */; };
 		BEF6403C1EF36241008F0BB4 /* Turnpike.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED18B1787304800AD1920 /* Turnpike.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		BEF6403D1EF36241008F0BB4 /* TPRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1B0178732C100AD1920 /* TPRouter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		BEF6403E1EF36241008F0BB4 /* TPRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1B31787338F00AD1920 /* TPRouteRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -43,7 +22,6 @@
 		BEF640491EF36284008F0BB4 /* TPAnonymousFilter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFED1B61787349B00AD1920 /* TPAnonymousFilter.h */; };
 		BEF6404A1EF36284008F0BB4 /* TPFilterChain.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFED1B9178734D600AD1920 /* TPFilterChain.h */; };
 		BEF6404B1EF36284008F0BB4 /* TPHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACFED1BC178740BE00AD1920 /* TPHelper.h */; };
-		BEF6404E1EF363D8008F0BB4 /* Turnpike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF640341EF36219008F0BB4 /* Turnpike.framework */; };
 		BEF640541EF3648D008F0BB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFED1841787304800AD1920 /* Foundation.framework */; };
 		BEF640551EF36526008F0BB4 /* TPRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFED1AF178732C100AD1920 /* TPRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF640561EF36526008F0BB4 /* TPRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFED1B21787338F00AD1920 /* TPRouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,10 +34,16 @@
 		BEF6405D1EF3653F008F0BB4 /* Turnpike.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFED1891787304800AD1920 /* Turnpike.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF640641EF36673008F0BB4 /* Turnpike-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF640611EF36673008F0BB4 /* Turnpike-dummy.m */; };
 		BEF640651EF36673008F0BB4 /* Turnpike-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF640621EF36673008F0BB4 /* Turnpike-umbrella.h */; };
+		BEF6406F1EF36971008F0BB4 /* Turnpike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF640341EF36219008F0BB4 /* Turnpike.framework */; };
+		BEF640751EF369BB008F0BB4 /* ParsingHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1E86981795D68F006D3839 /* ParsingHelperTests.m */; };
+		BEF640761EF369BD008F0BB4 /* URIHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC63021D1796B92F00609666 /* URIHelperTests.m */; };
+		BEF640771EF36A06008F0BB4 /* TurnpikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED1A21787304800AD1920 /* TurnpikeTests.m */; };
+		BEF640781EF36A38008F0BB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACFED19E1787304800AD1920 /* InfoPlist.strings */; };
+		BEF6407A1EF36B62008F0BB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF640791EF36B62008F0BB4 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BEF6404F1EF363E5008F0BB4 /* PBXContainerItemProxy */ = {
+		BEF640701EF36971008F0BB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ACFED1791787304800AD1920 /* Project object */;
 			proxyType = 1;
@@ -69,22 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		ACFED17F1787304800AD1920 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				ACFED18A1787304800AD1920 /* Turnpike.h in CopyFiles */,
-				ACB0B8CE178F8E470048764A /* TPRouter.h in CopyFiles */,
-				ACB0B8CF178F8E490048764A /* TPRouteRequest.h in CopyFiles */,
-				ACB0B8D0178F8E4B0048764A /* TPFilterProtocol.h in CopyFiles */,
-				ACB0B8D3178F8E540048764A /* TPHelper.h in CopyFiles */,
-				ACB0B8D2178F8E510048764A /* TPFilterChain.h in CopyFiles */,
-				ACB0B8D1178F8E4E0048764A /* TPAnonymousFilter.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BEF640441EF36268008F0BB4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,13 +80,10 @@
 		AC1E86981795D68F006D3839 /* ParsingHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParsingHelperTests.m; sourceTree = "<group>"; };
 		AC63021C1796B92F00609666 /* URIHelperTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URIHelperTests.h; sourceTree = "<group>"; };
 		AC63021D1796B92F00609666 /* URIHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URIHelperTests.m; sourceTree = "<group>"; };
-		ACFED1811787304800AD1920 /* libTurnpike_static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTurnpike_static.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFED1841787304800AD1920 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACFED1881787304800AD1920 /* Turnpike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Turnpike-Prefix.pch"; sourceTree = "<group>"; };
 		ACFED1891787304800AD1920 /* Turnpike.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Turnpike.h; sourceTree = "<group>"; };
 		ACFED18B1787304800AD1920 /* Turnpike.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Turnpike.m; sourceTree = "<group>"; };
-		ACFED1921787304800AD1920 /* TurnpikeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnpikeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACFED19D1787304800AD1920 /* TurnpikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TurnpikeTests-Info.plist"; sourceTree = "<group>"; };
 		ACFED19F1787304800AD1920 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACFED1A11787304800AD1920 /* TurnpikeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TurnpikeTests.h; sourceTree = "<group>"; };
 		ACFED1A21787304800AD1920 /* TurnpikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurnpikeTests.m; sourceTree = "<group>"; };
@@ -138,31 +103,25 @@
 		BEF640611EF36673008F0BB4 /* Turnpike-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Turnpike-dummy.m"; sourceTree = "<group>"; };
 		BEF640621EF36673008F0BB4 /* Turnpike-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Turnpike-umbrella.h"; sourceTree = "<group>"; };
 		BEF640631EF36673008F0BB4 /* Turnpike.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Turnpike.modulemap; sourceTree = "<group>"; };
+		BEF6406A1EF36971008F0BB4 /* TurnpikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnpikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF640791EF36B62008F0BB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ACFED17E1787304800AD1920 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACFED1851787304800AD1920 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACFED18E1787304800AD1920 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BEF6404E1EF363D8008F0BB4 /* Turnpike.framework in Frameworks */,
-				ACFED1971787304800AD1920 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BEF640301EF36219008F0BB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BEF640541EF3648D008F0BB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF640671EF36971008F0BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF6407A1EF36B62008F0BB4 /* XCTest.framework in Frameworks */,
+				BEF6406F1EF36971008F0BB4 /* Turnpike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,9 +141,8 @@
 		ACFED1821787304800AD1920 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACFED1811787304800AD1920 /* libTurnpike_static.a */,
-				ACFED1921787304800AD1920 /* TurnpikeTests.octest */,
 				BEF640341EF36219008F0BB4 /* Turnpike.framework */,
+				BEF6406A1EF36971008F0BB4 /* TurnpikeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +150,7 @@
 		ACFED1831787304800AD1920 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEF640791EF36B62008F0BB4 /* XCTest.framework */,
 				ACFED1841787304800AD1920 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -239,7 +198,6 @@
 				BEF640611EF36673008F0BB4 /* Turnpike-dummy.m */,
 				BEF640621EF36673008F0BB4 /* Turnpike-umbrella.h */,
 				BEF640631EF36673008F0BB4 /* Turnpike.modulemap */,
-				ACFED19D1787304800AD1920 /* TurnpikeTests-Info.plist */,
 				ACFED19E1787304800AD1920 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -304,42 +262,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ACFED1801787304800AD1920 /* Turnpike_static */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACFED1A61787304800AD1920 /* Build configuration list for PBXNativeTarget "Turnpike_static" */;
-			buildPhases = (
-				ACFED17D1787304800AD1920 /* Sources */,
-				ACFED17E1787304800AD1920 /* Frameworks */,
-				ACFED17F1787304800AD1920 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Turnpike_static;
-			productName = Turnpike;
-			productReference = ACFED1811787304800AD1920 /* libTurnpike_static.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		ACFED1911787304800AD1920 /* TurnpikeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACFED1A91787304800AD1920 /* Build configuration list for PBXNativeTarget "TurnpikeTests" */;
-			buildPhases = (
-				ACFED18D1787304800AD1920 /* Sources */,
-				ACFED18E1787304800AD1920 /* Frameworks */,
-				ACFED18F1787304800AD1920 /* Resources */,
-				ACFED1901787304800AD1920 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BEF640501EF363E5008F0BB4 /* PBXTargetDependency */,
-			);
-			name = TurnpikeTests;
-			productName = TurnpikeTests;
-			productReference = ACFED1921787304800AD1920 /* TurnpikeTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 		BEF640331EF36219008F0BB4 /* Turnpike */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEF640391EF36219008F0BB4 /* Build configuration list for PBXNativeTarget "Turnpike" */;
@@ -358,6 +280,24 @@
 			productReference = BEF640341EF36219008F0BB4 /* Turnpike.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		BEF640691EF36971008F0BB4 /* TurnpikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF640721EF36971008F0BB4 /* Build configuration list for PBXNativeTarget "TurnpikeTests" */;
+			buildPhases = (
+				BEF640661EF36971008F0BB4 /* Sources */,
+				BEF640671EF36971008F0BB4 /* Frameworks */,
+				BEF640681EF36971008F0BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF640711EF36971008F0BB4 /* PBXTargetDependency */,
+			);
+			name = TurnpikeTests;
+			productName = TurnpikeTests;
+			productReference = BEF6406A1EF36971008F0BB4 /* TurnpikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -368,6 +308,11 @@
 				ORGANIZATIONNAME = URX;
 				TargetAttributes = {
 					BEF640331EF36219008F0BB4 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = L9V3PVP949;
+						ProvisioningStyle = Automatic;
+					};
+					BEF640691EF36971008F0BB4 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = L9V3PVP949;
 						ProvisioningStyle = Automatic;
@@ -386,66 +331,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACFED1801787304800AD1920 /* Turnpike_static */,
-				ACFED1911787304800AD1920 /* TurnpikeTests */,
 				BEF640331EF36219008F0BB4 /* Turnpike */,
+				BEF640691EF36971008F0BB4 /* TurnpikeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ACFED18F1787304800AD1920 /* Resources */ = {
+		BEF640681EF36971008F0BB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACFED1A01787304800AD1920 /* InfoPlist.strings in Resources */,
+				BEF640781EF36A38008F0BB4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		ACFED1901787304800AD1920 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		ACFED17D1787304800AD1920 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACFED18C1787304800AD1920 /* Turnpike.m in Sources */,
-				ACFED1B1178732C100AD1920 /* TPRouter.m in Sources */,
-				ACFED1B41787338F00AD1920 /* TPRouteRequest.m in Sources */,
-				ACFED1B81787349B00AD1920 /* TPAnonymousFilter.m in Sources */,
-				ACFED1BB178734D600AD1920 /* TPFilterChain.m in Sources */,
-				ACFED1BE178740BE00AD1920 /* TPHelper.m in Sources */,
-				AC1E86931795B178006D3839 /* TPParsingHelper.m in Sources */,
-				AC1E86961795C050006D3839 /* TPURIHelper.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACFED18D1787304800AD1920 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACFED1A31787304800AD1920 /* TurnpikeTests.m in Sources */,
-				AC1E86991795D68F006D3839 /* ParsingHelperTests.m in Sources */,
-				AC63021E1796B92F00609666 /* URIHelperTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BEF6402F1EF36219008F0BB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,13 +365,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEF640661EF36971008F0BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF640771EF36A06008F0BB4 /* TurnpikeTests.m in Sources */,
+				BEF640751EF369BB008F0BB4 /* ParsingHelperTests.m in Sources */,
+				BEF640761EF369BD008F0BB4 /* URIHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BEF640501EF363E5008F0BB4 /* PBXTargetDependency */ = {
+		BEF640711EF36971008F0BB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BEF640331EF36219008F0BB4 /* Turnpike */;
-			targetProxy = BEF6404F1EF363E5008F0BB4 /* PBXContainerItemProxy */;
+			targetProxy = BEF640701EF36971008F0BB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -536,72 +449,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		ACFED1A71787304800AD1920 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/Turnpike.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../../../Downloads/MobileAppTracking-ios",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Turnpike/Turnpike-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		ACFED1A81787304800AD1920 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/Turnpike.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../../../Downloads/MobileAppTracking-ios",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Turnpike/Turnpike-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		ACFED1AA1787304800AD1920 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Turnpike/Turnpike-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "TurnpikeTests/TurnpikeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		ACFED1AB1787304800AD1920 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Turnpike/Turnpike-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "TurnpikeTests/TurnpikeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -696,6 +543,73 @@
 			};
 			name = Release;
 		};
+		BEF640731EF36971008F0BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = L9V3PVP949;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = TurnpikeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.fairfaxdigital.Domain.TurnpikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEF640741EF36971008F0BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = L9V3PVP949;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = TurnpikeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.fairfaxdigital.Domain.TurnpikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -708,24 +622,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACFED1A61787304800AD1920 /* Build configuration list for PBXNativeTarget "Turnpike_static" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACFED1A71787304800AD1920 /* Debug */,
-				ACFED1A81787304800AD1920 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACFED1A91787304800AD1920 /* Build configuration list for PBXNativeTarget "TurnpikeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACFED1AA1787304800AD1920 /* Debug */,
-				ACFED1AB1787304800AD1920 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BEF640391EF36219008F0BB4 /* Build configuration list for PBXNativeTarget "Turnpike" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -733,6 +629,16 @@
 				BEF6403B1EF36219008F0BB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF640721EF36971008F0BB4 /* Build configuration list for PBXNativeTarget "TurnpikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF640731EF36971008F0BB4 /* Debug */,
+				BEF640741EF36971008F0BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

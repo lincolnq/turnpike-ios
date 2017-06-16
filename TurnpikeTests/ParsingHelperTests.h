@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 URX. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface ParsingHelperTests : SenTestCase
+@interface ParsingHelperTests : XCTestCase
 
 @end

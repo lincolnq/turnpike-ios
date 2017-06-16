@@ -6,13 +6,12 @@
 //  Copyright (c) 2013 URX. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
 /**
  Tests for Turnpike
  */
-
-@interface TurnpikeTests : SenTestCase
+@interface TurnpikeTests : XCTestCase
 
 ///-------------------------------
 /// @name Route & Invocation Tests
