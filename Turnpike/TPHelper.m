@@ -61,25 +61,15 @@
 }
 
 + (NSString *)encodeURI:(NSString *)string {
-    return (NSString *) CFBridgingRelease(
-                                          CFURLCreateStringByAddingPercentEscapes(
-                                                                                  NULL,
-                                                                                  (CFStringRef)string,
-                                                                                  NULL,
-                                                                                  (CFStringRef)@";/?:@&=$+{}<>,",
-                                                                                  CFStringConvertNSStringEncodingToEncoding(NSUTF8StringEncoding)));
+    return [string stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
 }
 
 + (NSString *)decodeURI:(NSString *)string {
-    return (NSString *) CFBridgingRelease(
-                                          CFURLCreateStringByReplacingPercentEscapesUsingEncoding(NULL,
-                                                                                                  (CFStringRef)string,
-                                                                                                  CFSTR(""),
-                                                                                                  kCFStringEncodingUTF8));
+    return [string stringByRemovingPercentEncoding];
 }
 
 + (void)invokeExternalURL:(NSString *)url {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url] options:@{} completionHandler:nil];
 }
 
 + (void)invokeExternalAppWithSchema:(NSString *)schema Route:(NSString *)route AndQueryParameters:(NSDictionary *)queryParameters {
