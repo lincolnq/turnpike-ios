@@ -35,13 +35,13 @@
 ///-------------------------------
 /**
  Encode a string into a proper, percent escaped string.
- @param url The URL the OS will open (i.e. "http://google.com" for a web link or "myapp:someitem/something" for an app deep link)
+ @param string The URL the OS will open (i.e. "http://google.com" for a web link or "myapp:someitem/something" for an app deep link)
  */
 + (NSString *)encodeURI:(NSString *)string;
 
 /**
  A convenience method for opening a URL using `UIApplication` `canOpenURL:`.
- @param url The URL to try and open.
+ @param string The URL to try and open.
  @return If no apps respond to the URL, this will return `NO`, otherwise it will return `YES`.
  */
 + (NSString *)decodeURI:(NSString *)string;
